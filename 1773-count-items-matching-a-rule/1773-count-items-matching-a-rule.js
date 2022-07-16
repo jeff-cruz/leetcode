@@ -5,9 +5,6 @@
  * @return {number}
  */
 var countMatches = function(items, ruleKey, ruleValue) {
-    console.log("items:", items);
-    console.log("ruleKey:", ruleKey);
-    console.log("ruleValue:", ruleValue);
     let counter = 0;
     if(ruleKey === "type") {
         for(let i = 0; i < items.length; i++) {
